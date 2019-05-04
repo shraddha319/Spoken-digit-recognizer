@@ -1,0 +1,25 @@
+from sklearn.metrics import classification_report
+
+predictions = model.predict_classes(X_test)
+print(classification_report(y_test, to_categorical(predictions)))
+
+
+          precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        45
+           1       0.97      1.00      0.99        39
+           2       1.00      1.00      1.00        48
+           3       0.91      0.94      0.92        32
+           4       1.00      1.00      1.00        23
+           5       1.00      0.98      0.99        46
+           6       0.98      0.91      0.94        46
+           7       1.00      0.95      0.97        38
+           8       0.94      0.98      0.96        46
+           9       0.97      1.00      0.99        37
+
+   micro avg       0.97      0.97      0.97       400
+   macro avg       0.98      0.98      0.97       400
+weighted avg       0.98      0.97      0.97       400
+ samples avg       0.97      0.97      0.97       400
+
+
