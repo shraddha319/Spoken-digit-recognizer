@@ -6,7 +6,7 @@ The aim of this project is to recognize the spoken digit from a speech signal. I
 
 ## Data Description:
 
-•	Data source: github.com/Jakobovski/free-spoken-digit-dataset [FSDD]\
+•	Data source: [FSDD](https://github.com/Jakobovski/free-spoken-digit-dataset)\
 •	4 speakers\
 •	2,000 recordings (50 of each digit per speaker)\
 •	English pronunciations
@@ -18,10 +18,10 @@ A spectrogram is a convenient visualization of the frequencies present in an aud
 
 ## Proposed Machine Learning Models:
 
-### Multiclass Logistic Regression. 
+### Multiclass Logistic Regression 
 Multiclass logistic regression is a classification method that generalizes logistic regression to multiclass problems, i.e. with more than two possible discrete outcomes. It is a model that is used to predict the probabilities of the different possible outcomes of a categorically distributed dependent variable (Pixel values), given a set of independent variables (class labels).
 
-### K-Nearest Neighbours classifier. 	    
+### K-Nearest Neighbours classifier	    
 In k-NN classification, the output is a class membership. An object is classified by a plurality vote of its neighbors, with the object being assigned to the class most common among its k nearest neighbors (k is a positive integer, typically small). If k = 1, then the object is simply assigned to the class of that single nearest neighbour (which is been implemented). The Minkowski distance is used to calculate the nearest neighbour.	
 
 ### Convolutional Neural Network
