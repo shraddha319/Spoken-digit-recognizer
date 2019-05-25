@@ -1,7 +1,5 @@
 # Spoken Digit Recognition
 
-## Problem Statement:
-
 The aim of this project is to recognize the spoken digit from a speech signal. In this project, the voice input was converted to spectrographic images. These images were fed into a Logistic Regression, K-Nearest Neighbours, and CNN machine learning algorithms. The purpose of this experiment is to get a sense of how effective KNN, logistic Regression and CNN might be for spoken digit recognition when spectrograms are used inplace of the original speech signal.
 
 ## Data Description:
